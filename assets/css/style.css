@@ -1,39 +1,24 @@
-html {
-    height: 100%;
-    box-sizing: border-box;
-  }
-  
-  body {
-      background-image: url("../../assets/images/Pattern.jpg");
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 16px;
-  }
-  
-  h1 {
-      text-align: center;
-      font-size: 50px;
-      font-weight: 800;
-  }
-  
-  h2 {
-      text-align: center;
-      font-size: 30px;
-      font-weight: 700;
+body {
+    background-image: url("../images/Pattern.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
 
-  }
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
 
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
 
-  .containter {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-  }
-  
-  #space {
-      margin-top: 15px;
-  }
-  div.container {
-    height: 10em;
-    display: flex;
-    align-items: center;
-    justify-content: center }
+}
+
+.center-block {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}

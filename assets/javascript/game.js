@@ -21,17 +21,21 @@ function farUserGuesses() {
 }
 
 countGuessesLeft();
+var computerGuess = "";
 
-var restart = function() {
+function restart() {
 	guessesLeft = 9;
 	letterUser = [];
-	var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+	computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+	console.log(computerGuess);
 }
+
+
+restart();
 
 // When the user presses a key, it will run the following function..
 document.onkeyup = function(event) {
 	guessesLeft--;
-
 	var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
 
 	letterUser.push(userGuess);
